@@ -1,9 +1,11 @@
 # Patrones de las aplicaciones exitosas en Google Play Store.
 
 ## Objetivos:
-Desarrollar un codigo con el que pueda realizar un analisis de datos exploratorio de cualquier dataset con el que necesite trabajar
-Verificar cual categoría de las aplicaciones es mejor valorada
-Analizar la relación entre la categoría de la aplicación y su popularidad, medida en términos de instalaciones y calificaciones.
+**1)** Desarrollar un codigo con el que pueda realizar un analisis de datos exploratorio de cualquier dataset con el que necesite trabajar sin la necesidad de cambiar los nombres de las variables
+
+**2)** Verificar cual categoría de las aplicaciones es mejor valorada
+
+**3)** Analizar la relación entre la categoría de la aplicación y su popularidad, medida en términos de instalaciones y calificaciones.
 
 ## Descripción de las variables de interes:
 - **Categoría**: Esta variable clasifica la aplicación móvil en una categoría específica, como redes sociales, juegos, productividad, etc.
@@ -23,6 +25,6 @@ Analizar la relación entre la categoría de la aplicación y su popularidad, me
 - **Fecha.de.Lanzamiento**: Indica la fecha en la que la aplicación fue lanzada al mercado para su descarga e instalación por parte de los usuarios.
 
 ## Proponer las funciones a programar:
-1)Función para exploración de cada una de las variables numericas.
+**1)** Función para exploración de cada una de las variables numericas.
 
-2)Función para exploración de cada una de las variables categoricas
+**2)** Función para exploración de cada una de las variables categoricas
