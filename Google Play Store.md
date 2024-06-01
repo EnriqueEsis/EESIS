@@ -1,11 +1,11 @@
-Patrones de las aplicaciones exitosas en Google Play Store.
+# Patrones de las aplicaciones exitosas en Google Play Store.
 
-Objetivos:
+## Objetivos:
 Desarrollar un codigo con el que pueda realizar un analisis de datos exploratorio de cualquier dataset con el que necesite trabajar
 Verificar cual categoría de las aplicaciones es mejor valorada
 Analizar la relación entre la categoría de la aplicación y su popularidad, medida en términos de instalaciones y calificaciones.
 
-Descripción de las variables de interes:
+## Descripción de las variables de interes:
 Categoría: Esta variable clasifica la aplicación móvil en una categoría específica, como redes sociales, juegos, productividad, etc.
 
 Clasificación.de.Contenido: Indica la calificación o etiqueta de contenido asignada a la aplicación, como "Para todos", "Solo para adultos", "Adolescentes", etc.
@@ -22,6 +22,6 @@ Admite.Anuncios: Esta variable es binaria y especifica si la aplicación admite 
 
 Fecha.de.Lanzamiento: Indica la fecha en la que la aplicación fue lanzada al mercado para su descarga e instalación por parte de los usuarios.
 
-Proponer las funciones a programar:
+## Proponer las funciones a programar:
 1)Función para exploración de cada una de las variables numericas
 2)Función para exploración de cada una de las variables categoricas
