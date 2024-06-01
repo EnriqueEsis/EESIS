@@ -1,0 +1,16 @@
+# Patrones de las aplicaciones exitosas en Google Play Store.
+
+# Objetivos:
+
+# Verificar cual categoría de las aplicaciones es mejor valorada
+# Analizar la relación entre la categoría de la aplicación y su popularidad, medida en términos de instalaciones y calificaciones.
+
+
+# Descripción de las variables de interes:
+
+
+
+
+# Proponer las funciones a programar:
+# 1)Función para exploración de cada una de las variables numericas
+# 2)Función para exploración de cada una de las variables categoricas
