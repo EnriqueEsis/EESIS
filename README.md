@@ -1,34 +1,32 @@
-# ACTIVIDAD - INFORME ANÁLISIS EN R
+# Patrones de las aplicaciones exitosas en Google Play Store.
 
-# Informe de Análisis de Datos en R
+## Objetivos:
+**1)** Desarrollar un codigo con el que pueda realizar un analisis de datos exploratorio de cualquier dataset con el que necesite trabajar sin la necesidad de cambiar los nombres de las variables
 
-## Introducción
+**2)** Verificar cual categoría de las aplicaciones es mejor valorada
 
-Este repositorio contiene un archivo csv "sales.csv" de las ventas en estados unidos, el objetivo es de evaluar el rendimiento y la rentabilidad en diferentes mercados y productos utilizando datos históricos de ventas de este dataset.
+**3)** Analizar la relación entre la categoría de la aplicación y su popularidad, medida en términos de instalaciones y calificaciones.
 
-## Datos
+## Descripción de las variables de interes:
+- **Categoría**: Esta variable clasifica la aplicación móvil en una categoría específica, como redes sociales, juegos, productividad, etc.
 
-El conjunto de datos incluye información sobre:
+- **Clasificación.de.Contenido**: Indica la calificación o etiqueta de contenido asignada a la aplicación, como "Para todos", "Solo para adultos", "Adolescentes", etc.
 
-- **Área y estado**: Código de área y estado donde se realizaron las ventas.
-- **Región y tamaño del mercado**: Información sobre el mercado y su tamaño.
-- **Ganancias y márgenes**: Datos sobre las ganancias y los márgenes obtenidos.
-- **Ventas y costos de bienes vendidos (COGS)**: Información sobre las ventas y los costos de los bienes vendidos.
-- **Gastos totales y de marketing**: Gastos totales y específicos en marketing.
-- **Inventario**: Datos sobre el inventario.
-- **Presupuestos de ganancias, COGS, márgenes y ventas**: Información sobre los presupuestos establecidos para ganancias, COGS, márgenes y ventas.
-- **Identificación y tipo de producto**: Identificación y tipo de los productos vendidos.
-- **Fecha de las transacciones**: Fechas en las que se realizaron las transacciones.
+- **Nombre.de.la.Aplicación**: Es el nombre único que identifica la aplicación móvil en cuestión.
 
-## Métodos de Análisis
+- **Calificación**: Esta variable indica la puntuación promedio otorgada por los usuarios a la aplicación. Por lo general, se basa en una escala de 1 a 5 estrellas, donde 5 representa la mejor calificación.
 
-Para este análisis, se llevará a cabo utilizando el lenguaje de programación R. Empleando técnicas estadísticas y de visualización de datos para identificar tendencias y patrones en las ventas, creación de funciones para que el código de sea modular.
+- **Número.de.Calificaciones**: Indica la cantidad total de calificaciones que ha recibido la aplicación. Cuanto mayor sea este número, más representativa será la calificación promedio.
 
-## Objetivos del Análisis
+- **Instalaciones.Máximas**: Es el número total de veces que la aplicación ha sido instalada en dispositivos móviles.
 
-El análisis de datos tiene los siguientes objetivos que se pueden lograr utilizando las variables disponibles en el dataset:
+- **Admite.Anuncios**: Esta variable es binaria y especifica si la aplicación admite anuncios publicitarios dentro de su interfaz. Puede ser "Sí" o "No".
 
-1. Construir funciones vectorizables de resumen númerico de una o más variables cuantitativas que me devuelvan el resumen en tablas de presentaciones en clase S3.
-2. Crear una función que construya una base de datos reducida en que la variable de tiempo Date en formato de tiempo sea única y ordenada y las cuantitativa sean sumadas.
-3. Crear una función para calcular estadísticas descriptivas por grupo o factor (pasar por parámetro el data-frame). Agregar las especificaciones de 1)
+- **Fecha.de.Lanzamiento**: Indica la fecha en la que la aplicación fue lanzada al mercado para su descarga e instalación por parte de los usuarios.
+
+## Proponer las funciones a programar:
+**1)** Función para exploración de cada una de las variables numericas.
+
+**2)** Función para exploración de cada una de las variables categoricas
+
 
